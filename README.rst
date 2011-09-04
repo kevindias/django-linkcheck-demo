@@ -19,7 +19,7 @@ Basic usage
 
 #. Make sure that django and django-linkcheck are on your Python path
 
-#. ``cd`` into the example_project directory
+#. ``cd`` into the project root directory
 
 #. Run ``cp local_settings_example.py local_settings.py``
 
