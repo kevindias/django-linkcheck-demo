@@ -1,12 +1,12 @@
 Demo project for django-linkcheck
-================
+=================================
 
 A very simple project intended to demonstrate use of the django-linkcheck_ app. Users can post links along with a descriptive title and comment, and django-linkcheck will make it easy to monitor dead links.
 
 .. _django-linkcheck: https://github.com/andybak/django-linkcheck
 
 Requirements
------------
+------------
 
 * Django_ 1.3
 * django-linkcheck_
