@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<h1>Links</h1>
+
+{% for post in posts %}
+<div>
+    <h2><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+    <p><a href="{{ post.link }}">{{ post.link }}</a></p>
+    <p>{{ post.comment }}<p>
+    <p>&#x27FA;<p>
+</div>
+{% endfor %}
+
+{% endblock content %}

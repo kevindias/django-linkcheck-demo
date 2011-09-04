@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}A sample app for django-linkcheck{% endblock title %}</title>
+</head>
+
+<body>
+{% block body %}
+<div class="nav">
+    <ul>
+        <li><a href="{% url linkshare-index %}" title="Home">Home</a></li>
+        <li><a href="{% url linkshare-add_post %}" title="New Post">New</a></li>
+    </ul>
+</div>
+
+{% block content %}
+{% endblock content %}
+
+{% endblock body %}
+</body>
+</html>

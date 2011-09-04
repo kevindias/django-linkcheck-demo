@@ -73,6 +73,8 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    'linkcheck',
+    'linkshare',
 )
 
 # Keep settings which shouldn't be kept in version control in local_settings.py

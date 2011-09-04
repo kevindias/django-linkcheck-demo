@@ -5,9 +5,9 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'example_project.views.home', name='home'),
-    # url(r'^example_project/', include('example_project.foo.urls')),
+    # Example app urls
+    url(r'^', include('linkshare.urls')),
+    # Linkcheck urls
     url(r'^admin/linkcheck/', include('linkcheck.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

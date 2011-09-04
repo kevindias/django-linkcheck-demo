@@ -46,3 +46,7 @@ TEMPLATE_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
+
+# Linkcheck needs this setting to differentiate between internal and external
+# links. See the linkcheck README for details
+SITE_DOMAIN = 'localhost'

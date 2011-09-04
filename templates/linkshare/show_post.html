@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<h1>{{ post.title }}</h1>
+
+<p><a href="{{ post.link }}">{{ post.link }}</a></p>
+<p>{{ post.comment }}</p>
+
+{% endblock content %}
